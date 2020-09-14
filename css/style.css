@@ -144,18 +144,23 @@ ul li a{
 /* landing section */
 
 
-
+  
 #landing {
     display: flex;
     background-image: url(../img/landing2.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 60vh;
+    /* height: 60vh; */
+    height: 100vh;
     position: relative;
     color: white;
     align-items: center;
-    z-index: -999999999;
+    z-index: -10;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .overlay{
@@ -164,7 +169,7 @@ ul li a{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.5);
 }
 
 #landing .container{
