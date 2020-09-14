@@ -27,7 +27,7 @@ function startTimer($this) {
           $this.text(Math.ceil(this.Counter));
         }
       });
-    }, 500); 
+    }, 0); 
 }
 
 
